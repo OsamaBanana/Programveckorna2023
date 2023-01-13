@@ -710,6 +710,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 916335654}
   m_CullTransparentMesh: 1
 --- !u!1 &1180277843
+<<<<<<< Updated upstream
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -808,6 +809,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1691842520}
 --- !u!1 &1261607720
+=======
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
