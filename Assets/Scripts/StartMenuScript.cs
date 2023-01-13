@@ -11,6 +11,11 @@ public class StartMenuScript : MonoBehaviour
         SceneManager.LoadScene("Outdoors");
     }
 
+    public void Settings()
+    {
+        SceneManager.LoadScene("Settings");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
