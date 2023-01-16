@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class man : MonoBehaviour
 {
@@ -31,5 +32,20 @@ public class man : MonoBehaviour
     private void FixedUpdate()
     {
         rb.MovePosition(rb.position + movement * playerspeed * Time.fixedDeltaTime);
+    }
+
+    public void SavePlayer()
+    {
+        Savesystem.SavePlayer(this);
+    }
+    public void LoadPlayer()
+    {
+        PlayerData data = Savesystem.LoadPlayer();  
+        Vector3 position;
+        position.x = data.position[0];
+        position.y = data.position[1];
+        position.z = data.position[2];
+        transform.position = position;
+        SceneManager.LoadScene("Outdoors");
     }
 }
