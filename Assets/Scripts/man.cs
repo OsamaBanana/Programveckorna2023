@@ -48,4 +48,12 @@ public class man : MonoBehaviour
         transform.position = position;
         SceneManager.LoadScene("Outdoors");
     }
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            //Destroy(gameObject);
+            SceneManager.LoadScene("GameOver");
+        }
+    }
 }
