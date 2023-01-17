@@ -16,7 +16,7 @@ public class PauseMenu : MonoBehaviour
         {
             if(isGamePaused)
             {
-                ResumeGame();
+                ResumeGameOutdoors();
             }
             else
             {
@@ -26,7 +26,7 @@ public class PauseMenu : MonoBehaviour
             
     }
 
-    public void ResumeGame()
+    public void ResumeGameOutdoors()
     {
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
