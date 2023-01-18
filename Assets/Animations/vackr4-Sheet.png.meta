@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4ef11da7da9645242a6daca71916bc5f
+guid: 66daf9a18893c3343ac2255544a2bffa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 160
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tileset_0
+      name: vackr4-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 160
-        height: 160
+        width: 650
+        height: 650
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 662fa1dd372d66842be857e16027eec7
-      internalID: -439025271
+      spriteID: f2fa381da3efc004db2985c5ccd1b551
+      internalID: 1973678100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_1
+      name: vackr4-Sheet_1
       rect:
         serializedVersion: 2
-        x: 160
+        x: 650
         y: 0
-        width: 160
-        height: 160
+        width: 650
+        height: 650
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3efe87944b38be24c9b4c64233e7dc74
-      internalID: -274519748
+      spriteID: 21ea18232f066a14a98c19fdbfc60d7f
+      internalID: 1389777345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_2
+      name: vackr4-Sheet_2
       rect:
         serializedVersion: 2
-        x: 320
+        x: 1300
         y: 0
-        width: 160
-        height: 160
+        width: 650
+        height: 650
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ab2836ebd9239d4391e6089353a987e
-      internalID: -997327840
+      spriteID: fe9fae7f98dbb084db62fa651b132f28
+      internalID: 1265747490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_3
+      name: vackr4-Sheet_3
       rect:
         serializedVersion: 2
-        x: 480
+        x: 1950
         y: 0
-        width: 160
-        height: 160
+        width: 650
+        height: 650
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 943d24302298b2a40aed2366de4f9150
-      internalID: 1118745570
+      spriteID: d8578bfe5ca66c5439e472b16b7df097
+      internalID: 120820501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_4
+      name: vackr4-Sheet_4
       rect:
         serializedVersion: 2
-        x: 640
+        x: 2600
         y: 0
-        width: 160
-        height: 160
+        width: 650
+        height: 650
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcc7156952c7c9e418b4585b413a2b0f
-      internalID: 869571383
+      spriteID: 3f64c134397ac57418d04f11fa27bc57
+      internalID: 956049502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_5
+      name: vackr4-Sheet_5
       rect:
         serializedVersion: 2
-        x: 800
+        x: 3250
         y: 0
-        width: 160
-        height: 160
+        width: 650
+        height: 650
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3148be2dc3e1adc4a823f187ef9bb0e1
-      internalID: 325225343
+      spriteID: fcd7311bfb9024c4e87e671b25ea2556
+      internalID: -1923911096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_6
+      name: vackr4-Sheet_6
       rect:
         serializedVersion: 2
-        x: 960
+        x: 3900
         y: 0
-        width: 160
-        height: 160
+        width: 650
+        height: 650
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae29a0f92eabac7458451c253613bbd9
-      internalID: 640850210
+      spriteID: f3633804d2138ec44aeab6b41206cc6a
+      internalID: 23362587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tileset_7
+      name: vackr4-Sheet_7
       rect:
         serializedVersion: 2
-        x: 1120
+        x: 4550
         y: 0
-        width: 160
-        height: 160
+        width: 650
+        height: 650
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,50 +278,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f9158dd162cce84a80b4468cfe9abbb
-      internalID: 1882162847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_8
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b01af96c3b47a0409e86349caa72670
-      internalID: 1578445117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tileset_9
-      rect:
-        serializedVersion: 2
-        x: 1440
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a2ef057ea93c1444bdd98ae822cc709
-      internalID: 93619634
+      spriteID: c4f883edd8f98504b89d353d3560f673
+      internalID: 1020578125
       vertices: []
       indices: 
       edges: []
@@ -337,16 +295,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Tileset_3: 1118745570
-      Tileset_4: 869571383
-      Tileset_1: -274519748
-      Tileset_5: 325225343
-      Tileset_2: -997327840
-      Tileset_6: 640850210
-      Tileset_8: 1578445117
-      Tileset_9: 93619634
-      Tileset_0: -439025271
-      Tileset_7: 1882162847
+      vackr4-Sheet_5: -1923911096
+      vackr4-Sheet_2: 1265747490
+      vackr4-Sheet_0: 1973678100
+      vackr4-Sheet_3: 120820501
+      vackr4-Sheet_4: 956049502
+      vackr4-Sheet_6: 23362587
+      vackr4-Sheet_1: 1389777345
+      vackr4-Sheet_7: 1020578125
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
