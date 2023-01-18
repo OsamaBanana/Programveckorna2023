@@ -11,7 +11,7 @@ public class GameOverOutdoors : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("Outdoors");
     }
 
     public void Quit()

@@ -28,6 +28,23 @@ public class man : MonoBehaviour
         {
             playerspeed = 5f;
         }
+
+        if(Input.GetKeyDown(KeyCode.W))
+        {
+            
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+
+        }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+
+        }
     }
     private void FixedUpdate()
     {
@@ -56,4 +73,6 @@ public class man : MonoBehaviour
             SceneManager.LoadScene("GameOver");
         }
     }
+
+
 }
