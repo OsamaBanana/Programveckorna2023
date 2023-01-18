@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameOverOutdoors : MonoBehaviour
 {
+    public GameObject GameOverPanel;
     public void LoadMenu()
     {
         SceneManager.LoadScene("StartMenu");
@@ -18,5 +19,13 @@ public class GameOverOutdoors : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Quit");
+    }
+
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.G))
+        {
+            GameOverPanel.SetActive(true);
+        }
     }
 }

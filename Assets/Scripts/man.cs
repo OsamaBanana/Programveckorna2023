@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class man : MonoBehaviour
 {
+    public static bool isPlayerAlive = true;
     public float playerspeed = 5f;
     [SerializeField]
     Rigidbody2D rb;
@@ -51,7 +52,7 @@ public class man : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             //Destroy(gameObject);
-            
+            GameOverPanel.SetActive(true);
         }
     }
 }
