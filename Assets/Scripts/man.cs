@@ -12,15 +12,18 @@ public class man : MonoBehaviour
     Vector2 movement;
     public Animator animator;
     public GameObject GameOverPanel;
-    // Start is called before the first frame update
+    [SerializeField]
+    public int keyss = 1;
+    // Start is called before the first frame update - erwin
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
+    // Update is called once per frame - erwin
     void Update()
     {
+        //den kod för att röra sig fungera - erwin
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
@@ -30,6 +33,7 @@ public class man : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        //den kod för om röra sig - erwin
         rb.MovePosition(rb.position + movement * playerspeed * Time.fixedDeltaTime);
     }
 
@@ -47,12 +51,21 @@ public class man : MonoBehaviour
         transform.position = position;
         SceneManager.LoadScene("Outdoors");
     }
-    public void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D other)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (other.gameObject.tag == "Enemy")
         {
+            //Den kod för när man krok och dö - erwin
             //Destroy(gameObject);
             GameOverPanel.SetActive(true);
         }
+        if (other.gameObject.tag == "keys")
+        {
+            //den koden gör så att man kroka och döda - erwin
+            collectm.instance.keyscollect(keyss);
+            Debug.Log("he");
+            Destroy(other.gameObject);
+        }
     }
+
 }
