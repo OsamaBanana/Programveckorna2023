@@ -12,6 +12,8 @@ public class man : MonoBehaviour
     Vector2 movement;
     public Animator animator;
     public GameObject GameOverPanel;
+    [SerializeField]
+    public int keyss = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,12 +49,19 @@ public class man : MonoBehaviour
         transform.position = position;
         SceneManager.LoadScene("Outdoors");
     }
-    public void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D other)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (other.gameObject.tag == "Enemy")
         {
             //Destroy(gameObject);
             GameOverPanel.SetActive(true);
         }
+        if (other.gameObject.tag == "keys")
+        {
+            collectm.instance.keyscollect(keyss);
+            Debug.Log("he");
+            Destroy(other.gameObject);
+        }
     }
+
 }
