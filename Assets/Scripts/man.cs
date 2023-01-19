@@ -5,10 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class man : MonoBehaviour
 {
-    float playerspeed = 5f;
+    public static bool isPlayerAlive = true;
+    public float playerspeed = 5f;
     [SerializeField]
     Rigidbody2D rb;
     Vector2 movement;
+    public Animator animator;
+    public GameObject GameOverPanel;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,14 +23,10 @@ public class man : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            playerspeed = 10f;
-        }
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            playerspeed = 5f;
-        }
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
     }
     private void FixedUpdate()
     {
@@ -53,7 +52,7 @@ public class man : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             //Destroy(gameObject);
-            SceneManager.LoadScene("GameOver");
+            GameOverPanel.SetActive(true);
         }
     }
 }
