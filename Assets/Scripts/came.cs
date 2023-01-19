@@ -8,6 +8,7 @@ public class came : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //den kod för att kamera följa spelare position
         transform.position = new(Player.transform.position.x, Player.transform.position.y, transform.position.z);
     }
 }
