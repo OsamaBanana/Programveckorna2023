@@ -10,10 +10,12 @@ public class MenuButtonSound : MonoBehaviour
 
     public void HoverSound()
     {
+        //Play hoverSFX once -Arvid
         menuButtonSFX.PlayOneShot (hoverSFX);
     }
     public void ClickSound()
     {
+        //Play clickSFX once -Arvid
         menuButtonSFX.PlayOneShot(clickSFX);
     }
 
