@@ -22,8 +22,7 @@ public class PauseMenu : MonoBehaviour
             {
                 PauseGame();
             }
-        }
-            
+        } 
     }
 
     public void ResumeGameOutdoors()

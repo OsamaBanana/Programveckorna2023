@@ -4,16 +4,11 @@ using UnityEngine;
 
 public class came : MonoBehaviour
 {
-    public GameObject player;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
+    public GameObject Player;
     // Update is called once per frame
     void Update()
     {
-        transform.position = new(player.transform.position.x, player.transform.position.y, transform.position.z);
+        //den kod för att kamera följa spelare position
+        transform.position = new(Player.transform.position.x, Player.transform.position.y, transform.position.z);
     }
 }
