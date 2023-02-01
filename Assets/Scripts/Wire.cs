@@ -76,7 +76,6 @@ public class Wire : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHand
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        print("Drar Begin");
         if (IsLeftWire) { return; }
         // Is is successful, don't draw more lines!
         if (IsSuccess) { return; }

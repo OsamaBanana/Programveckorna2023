@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: 497c709400dbd1c419d75ab412c4c2ff
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fabrik-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 321
+        height: 481
+      alignment: 9
+      pivot: {x: 0.52049124, y: 0.43852574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130eed1987a194341a071e605d22afed
+      internalID: -206243659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fabrik-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 804
+        width: 155
+        height: 147
+      alignment: 9
+      pivot: {x: 0.4814444, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74.40614, y: 74}
+        - {x: -74.40614, y: -74}
+        - {x: 78, y: -74}
+        - {x: 78, y: 74}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9750fe467600bc41a026630b3f6c495
+      internalID: -27109430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fabrik-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -159.37494, y: 183.41464}
+        - {x: -174.99994, y: 167.80489}
+        - {x: -174.99994, y: -3.902439}
+        - {x: -159.37494, y: -19.512196}
+        - {x: 12.500047, y: -19.512196}
+        - {x: 28.125046, y: -3.902439}
+        - {x: 28.125046, y: 167.80489}
+        - {x: 12.500047, y: 183.41464}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8e5619e157df44bac772d4688d28ee
+      internalID: -1900017213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fabrik-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -168.7498, y: 19.512196}
+        - {x: -184.3748, y: 3.902439}
+        - {x: -184.3748, y: -160}
+        - {x: -160.9373, y: -183.41464}
+        - {x: 10.93769, y: -183.41464}
+        - {x: 26.562689, y: -167.80489}
+        - {x: 26.562689, y: 3.902439}
+        - {x: 10.93769, y: 19.512196}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c530e5aec8184d439c26b237feea67e
+      internalID: 815950656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fabrik-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.3436546, y: 19.512196}
+        - {x: -17.968655, y: 3.902439}
+        - {x: -17.968655, y: -167.80489}
+        - {x: -2.3436546, y: -183.41464}
+        - {x: 169.53134, y: -183.41464}
+        - {x: 185.15634, y: -167.80489}
+        - {x: 185.15634, y: 3.902439}
+        - {x: 169.53134, y: 19.512196}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33de7b45cbaf9144d924a54aee4fb0d6
+      internalID: 1069340132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fabrik-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.9062498, y: 183.41464}
+        - {x: -19.53125, y: 167.80489}
+        - {x: -19.53125, y: -3.902439}
+        - {x: -3.9062498, y: -19.512196}
+        - {x: 167.96873, y: -19.512196}
+        - {x: 183.59373, y: -3.902439}
+        - {x: 183.59373, y: 167.80489}
+        - {x: 167.96873, y: 183.41464}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e8cbf060f20e64fb235e797b6cc460
+      internalID: 1007241603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fabrik-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.187119, y: 183.41464}
+        - {x: -17.187119, y: -3.902439}
+        - {x: -1.5621184, y: -19.512196}
+        - {x: 178.12537, y: -19.512196}
+        - {x: 193.75037, y: -3.902439}
+        - {x: 193.75037, y: 160}
+        - {x: 185.93787, y: 183.41464}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9acfbc89a1ba4149b968dbebd3e968a
+      internalID: 439300430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fabrik-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 11200
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -159.37424, y: 19.512196}
+        - {x: -174.99922, y: 3.902439}
+        - {x: -174.99922, y: -167.80489}
+        - {x: -159.37424, y: -183.41464}
+        - {x: 12.500762, y: -183.41464}
+        - {x: 28.125761, y: -167.80489}
+        - {x: 28.125761, y: 3.902439}
+        - {x: 12.500762, y: 19.512196}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a44187d625e6d4b919a4274b55bcac
+      internalID: 1372187500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fabrik-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 12800
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.6873093, y: 19.512196}
+        - {x: -20.312307, y: 3.902439}
+        - {x: -20.312307, y: -167.80489}
+        - {x: -4.6873093, y: -183.41464}
+        - {x: 167.18768, y: -183.41464}
+        - {x: 182.81268, y: -167.80489}
+        - {x: 182.81268, y: 3.902439}
+        - {x: 167.18768, y: 19.512196}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162ae04a98732b048b7311cc2a117950
+      internalID: -1064607074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fabrik-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 14400
+        y: 0
+        width: 1600
+        height: 1600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.3431778, y: 19.512196}
+        - {x: -17.968178, y: 3.902439}
+        - {x: -17.968178, y: -167.80489}
+        - {x: -2.3431778, y: -183.41464}
+        - {x: 169.53181, y: -183.41464}
+        - {x: 185.15681, y: -167.80489}
+        - {x: 185.15681, y: 3.902439}
+        - {x: 169.53181, y: 19.512196}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b245aa2375118924cbdd8d92f08ed634
+      internalID: -898114085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      fabrik-Sheet_9: -898114085
+      fabrik-Sheet_5: 1007241603
+      fabrik-Sheet_0: -206243659
+      fabrik-Sheet_8: -1064607074
+      fabrik-Sheet_1: -27109430
+      fabrik-Sheet_3: 815950656
+      fabrik-Sheet_2: -1900017213
+      fabrik-Sheet_4: 1069340132
+      fabrik-Sheet_7: 1372187500
+      fabrik-Sheet_6: 439300430
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
