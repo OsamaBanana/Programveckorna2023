@@ -52,6 +52,7 @@ public class man : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             GameOverPanel.SetActive(true);
+            Destroy(this.gameObject);
         }
     }
 }

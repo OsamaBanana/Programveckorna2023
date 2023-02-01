@@ -24,12 +24,4 @@ public class GameOverIndoors : MonoBehaviour
         Application.Quit();
         Debug.Log("Quit");
     }
-
-    private void Update()
-    {
-        if (Input.GetKey(KeyCode.G))
-        {
-            GameOverPanel.SetActive(true);
-        }
-    }
 }
