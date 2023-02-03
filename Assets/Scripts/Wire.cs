@@ -4,8 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Wire : MonoBehaviour,
-         IDragHandler, IBeginDragHandler, IEndDragHandler
+public class Wire : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
     public bool IsLeftWire;
     public Color CustomColor;
@@ -30,14 +29,10 @@ public class Wire : MonoBehaviour,
         if (_isDragStarted)
         {
             Vector2 movePos;
-            RectTransformUtility.ScreenPointToLocalPointInRectangle(
-                        _canvas.transform as RectTransform,
-                        Input.mousePosition,
-                        _canvas.worldCamera,
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(_canvas.transform as RectTransform,Input.mousePosition,_canvas.worldCamera,
                         out movePos);
             _lineRenderer.SetPosition(0, transform.position);
-            _lineRenderer.SetPosition(1,
-                 _canvas.transform.TransformPoint(movePos));
+            _lineRenderer.SetPosition(1,_canvas.transform.TransformPoint(movePos));
         }
         else
         {
@@ -51,8 +46,7 @@ public class Wire : MonoBehaviour,
         }
         bool isHovered =
           RectTransformUtility.RectangleContainsScreenPoint(
-              transform as RectTransform, Input.mousePosition,
-                                      _canvas.worldCamera);
+              transform as RectTransform, Input.mousePosition, _canvas.worldCamera);
         if (isHovered)
         {
             _wireTask.CurrentHoveredWire = this;
@@ -70,10 +64,19 @@ public class Wire : MonoBehaviour,
     {
         // needed for drag but not used
     }
+   /* private void OnMouseDrag()
+    {
+        print("Drar");
+        if (IsLeftWire) { return; }
+        // Is is successful, don't draw more lines!
+        if (IsSuccess) { return; }
+        _isDragStarted = true;
+        _wireTask.CurrentDraggedWire = this;
+    }*/
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        if (!IsLeftWire) { return; }
+        if (IsLeftWire) { return; }
         // Is is successful, don't draw more lines!
         if (IsSuccess) { return; }
         _isDragStarted = true;
@@ -86,7 +89,7 @@ public class Wire : MonoBehaviour,
         {
             if (_wireTask.CurrentHoveredWire.CustomColor ==
                                                    CustomColor &&
-                !_wireTask.CurrentHoveredWire.IsLeftWire)
+                _wireTask.CurrentHoveredWire.IsLeftWire)
             {
                 IsSuccess = true;
 

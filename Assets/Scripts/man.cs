@@ -53,11 +53,11 @@ public class man : MonoBehaviour
     }
     public void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "Enemy")
+        //if (other.gameObject.tag == "Enemy")
         {
             //Den kod för när man krok och dö - erwin
             //Destroy(gameObject);
-            GameOverPanel.SetActive(true);
+            //GameOverPanel.SetActive(true);
         }
         if (other.gameObject.tag == "keys")
         {
