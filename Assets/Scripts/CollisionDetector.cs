@@ -7,6 +7,7 @@ public class CollisionDetector : MonoBehaviour
     public GameObject panel;
     public float displayTime = 5f; // time in seconds for the panel to be displayed
     public static CollisionDetector instance;
+    public GameObject player;
 
     void Awake()
     {
@@ -26,14 +27,14 @@ public class CollisionDetector : MonoBehaviour
         panel.SetActive(true);
         Invoke("DeactivatePanel", displayTime);
         //lock player's position
-        GetComponent<Rigidbody2D>().isKinematic = true;
+        player.GetComponent<Rigidbody2D>().isKinematic = true;
         //set a timer to re-enable collision and unlock player's position after some time
         Invoke("ReactivateCollision", 10f);
     }
 
     void ReactivateCollision()
     {
-        GetComponent<Rigidbody2D>().isKinematic = false;
+        player.GetComponent<Rigidbody2D>().isKinematic = false;
     }
 
     void OnTriggerEnter2D(Collider2D collider)
