@@ -68,5 +68,4 @@ public class man : MonoBehaviour
             Destroy(other.gameObject);
         }
     }
-
 }
