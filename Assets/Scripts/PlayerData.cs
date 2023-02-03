@@ -15,4 +15,4 @@ public class PlayerData : MonoBehaviour
         position[1] = player.transform.position.x;
         position[2] = player.transform.position.z;
     }
-}
+}   
