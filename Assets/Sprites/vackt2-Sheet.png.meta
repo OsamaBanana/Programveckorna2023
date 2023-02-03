@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,175 +103,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: vackt2-Sheet_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 585
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2daec2f488ede914ea45cf27fad46811
-      internalID: 1780876715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vackt2-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 585
-        y: 0
-        width: 585
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4eaf0fa10dfc6a6468927f3232dadea7
-      internalID: -1102467479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vackt2-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 1170
-        y: 0
-        width: 585
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9992623a0c2ebb4ebeb1c5762b6ff26
-      internalID: 761654262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vackt2-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 1755
-        y: 0
-        width: 585
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61fad7fc5d6563f47b592263db026222
-      internalID: 926445221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vackt2-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 2340
-        y: 0
-        width: 585
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cbf0a07ee8f15f4cb0128f3a24a80f8
-      internalID: 267920835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vackt2-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 2925
-        y: 0
-        width: 585
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2c42506d40e03f4280f4fa972cd36ea
-      internalID: 1364092692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vackt2-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 3510
-        y: 0
-        width: 585
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 537deaeca4f2a564f94957c9b0a9d960
-      internalID: -1159649365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: vackt2-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 4095
-        y: 0
-        width: 585
-        height: 585
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28097d8e7a4713447ae817d601e9dfe5
-      internalID: 1442196278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -282,15 +114,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      vackt2-Sheet_2: 761654262
-      vackt2-Sheet_0: 1780876715
-      vackt2-Sheet_6: -1159649365
-      vackt2-Sheet_5: 1364092692
-      vackt2-Sheet_7: 1442196278
-      vackt2-Sheet_1: -1102467479
-      vackt2-Sheet_3: 926445221
-      vackt2-Sheet_4: 267920835
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

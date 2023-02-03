@@ -1,27 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using TMPro;
+
 public class GameOverIndoors : MonoBehaviour
 {
-
-    public GameObject GameOverPanel;
-    public void LoadMenu()
+    // Start is called before the first frame update
+    void Start()
     {
-        SceneManager.LoadScene("StartMenu");
+        
     }
 
-    public void Restart()
+    // Update is called once per frame
+    void Update()
     {
-        SceneManager.LoadScene("Indoors");
-        Time.timeScale = 1f;
-        GameOverPanel.SetActive(false);
-    }
-
-    public void Quit()
-    {
-        Application.Quit();
-        Debug.Log("Quit");
+        
     }
 }

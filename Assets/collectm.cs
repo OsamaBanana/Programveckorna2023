@@ -13,7 +13,6 @@ public class collectm : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //om kod inte aktiv då gör kod aktiv - Erwin
         if (instance == null)
         {
             instance = this;
@@ -21,7 +20,6 @@ public class collectm : MonoBehaviour
     }
     public void keyscollect (int keyss)
     {
-        //göra så att nummer av nycklar inte gå över 3 och man få det - erwin
         if (score < 3)
         {
             score += keyss;

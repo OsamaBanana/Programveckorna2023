@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class AnimationScript : MonoBehaviour
 {
-    public AudioSource GravelSound;
     public Rigidbody2D rb;
     public GameObject Player;
     public Animator animator;
@@ -15,11 +14,24 @@ public class AnimationScript : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
+
     void Update()
     {
-        if (isMoving)
+        if (Input.GetKey(KeyCode.W))
         {
             animator.SetBool("moveUp", true);
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            animator.SetBool("moveLeft", true);
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            animator.SetBool("moveDown", true);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            animator.SetBool("moveRight", true);
         }
     }
 }

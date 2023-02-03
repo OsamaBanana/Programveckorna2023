@@ -23,7 +23,7 @@ public class man : MonoBehaviour
     // Update is called once per frame - erwin
     void Update()
     {
-        //den kod fï¿½r att rï¿½ra sig fungera - erwin
+        //den kod för att röra sig fungera - erwin
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
@@ -33,7 +33,7 @@ public class man : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        //den kod fï¿½r om rï¿½ra sig - erwin
+        //den kod för om röra sig - erwin
         rb.MovePosition(rb.position + movement * playerspeed * Time.fixedDeltaTime);
     }
 
@@ -55,17 +55,17 @@ public class man : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            //Den kod fï¿½r nï¿½r man krok och dï¿½ - erwin
+            //Den kod för när man krok och dö - erwin
             //Destroy(gameObject);
             GameOverPanel.SetActive(true);
-            Destroy(this.gameObject);
         }
         if (other.gameObject.tag == "keys")
         {
-            //den koden gï¿½r sï¿½ att man kroka och dï¿½da - erwin
+            //den koden gör så att man kroka och döda - erwin
             collectm.instance.keyscollect(keyss);
             Debug.Log("he");
             Destroy(other.gameObject);
         }
     }
+
 }
