@@ -4,6 +4,8 @@ using UnityEngine;
 
 [System.Serializable]
 
+//kod som inte fungerar, var tänkt för att spara postionen spelaren sparade vid så att man kan ladda den nästa gång man går in på spelet - Malte
+
 public class PlayerData : MonoBehaviour
 {
     public float[] position;

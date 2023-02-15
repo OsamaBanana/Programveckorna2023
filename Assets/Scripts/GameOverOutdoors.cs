@@ -7,6 +7,7 @@ public class GameOverOutdoors : MonoBehaviour
 {
 
     public GameObject GameOverPanel;
+    //Kod som var tänkt för att knappar skulle fungera när man förlorat - Malte
     public void LoadMenu()
     {
         SceneManager.LoadScene("StartMenu");
