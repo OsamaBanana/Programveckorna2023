@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - keys
+  - Gravel
+  - Grass
+  - Floor
   layers:
   - Default
   - TransparentFX
