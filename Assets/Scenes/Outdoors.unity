@@ -516,6 +516,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 5
+  startingY: 0
+  direction: -1
+--- !u!114 &153995105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153995093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c91722edd1f1f4fa65cda3bb76b43a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  range: {x: 0, y: -10}
+  direction: {x: 0, y: -1}
 --- !u!1 &163798578 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 101113438000514384, guid: 4adfe70416d54884292d36305ec2c5dd, type: 3}
@@ -534,7 +551,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  range: 5
+  range: {x: -10, y: 0}
+  direction: {x: -1, y: 0}
 --- !u!1 &279447475
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +648,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 5
+  startingX: 0
+  direction: -1
+--- !u!114 &371170337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371170325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c91722edd1f1f4fa65cda3bb76b43a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  range: {x: 10, y: 0}
+  direction: {x: 1, y: 0}
 --- !u!1 &441165425
 GameObject:
   m_ObjectHideFlags: 0
@@ -2422,6 +2457,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   range: 5
+  startingY: 0
+  direction: -1
+--- !u!114 &1201081715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201081703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c91722edd1f1f4fa65cda3bb76b43a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  range: {x: 0, y: 10}
+  direction: {x: 0, y: 1}
 --- !u!1 &1314688789
 GameObject:
   m_ObjectHideFlags: 0

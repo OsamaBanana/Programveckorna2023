@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
-public class GameOverIndoors : MonoBehaviour
+public class GameOverOutdoors : MonoBehaviour
 {
 
     public GameObject GameOverPanel;
+    //Kod som är gjord för att knapparna ska ladda olika scener när man dött - Malte
     public void LoadMenu()
     {
         SceneManager.LoadScene("StartMenu");
@@ -14,9 +15,8 @@ public class GameOverIndoors : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene("Indoors");
+        SceneManager.LoadScene("Outdoors");
         Time.timeScale = 1f;
-        GameOverPanel.SetActive(false);
     }
 
     public void Quit()

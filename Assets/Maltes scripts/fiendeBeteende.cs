@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class fiendeBeteende : MonoBehaviour
 {
+    //Malte
     public Transform[] patrolPoints;
     public float moveSpeed;
     public int patrolDestination;
@@ -33,3 +34,4 @@ public class fiendeBeteende : MonoBehaviour
         }
     }
 }
+//kod som vi bestämde oss för att inte använda 
