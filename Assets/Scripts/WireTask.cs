@@ -69,6 +69,7 @@ public class WireTask : MonoBehaviour
             if (successfulWires >= _rightWires.Count)
             {
                 Debug.Log("TASK COMPLETED");
+                IsTaskCompleted = true;
             }
             else
             {

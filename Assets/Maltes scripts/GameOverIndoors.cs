@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameOverIndoors : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class GameOverIndoors : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void Restart()
     {
         SceneManager.LoadScene("Indoors");
         Time.timeScale = 1f;
