@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class man : MonoBehaviour
 {
+    public bool canMove = true;
     public static bool isPlayerAlive = true;
     public float playerspeed = 5f;
     [SerializeField]
@@ -17,6 +18,7 @@ public class man : MonoBehaviour
     // Start is called before the first frame update - erwin
     void Start()
     {
+        canMove = true;
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -34,8 +36,12 @@ public class man : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        //den kod för om röra sig - erwin
-        rb.MovePosition(rb.position + movement * playerspeed * Time.fixedDeltaTime);
+        if (canMove)
+        {
+            //den kod för om röra sig - erwin
+            rb.MovePosition(rb.position + movement * playerspeed * Time.fixedDeltaTime);
+        }
+        
     }
         
     public void OnCollisionEnter2D(Collision2D other)
