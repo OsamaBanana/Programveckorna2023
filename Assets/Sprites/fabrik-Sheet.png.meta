@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,12 +120,12 @@ TextureImporter:
       name: fabrik-Sheet_0
       rect:
         serializedVersion: 2
-        x: 640
-        y: 640
-        width: 321
-        height: 481
-      alignment: 9
-      pivot: {x: 0.52049124, y: 0.43852574}
+        x: 633
+        y: 632
+        width: 336
+        height: 492
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,12 +141,12 @@ TextureImporter:
       name: fabrik-Sheet_1
       rect:
         serializedVersion: 2
-        x: 2243
+        x: 2242
         y: 804
-        width: 155
-        height: 147
-      alignment: 9
-      pivot: {x: 0.4814444, y: 0.5}
+        width: 157
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -74.40614, y: 74}
@@ -166,10 +166,10 @@ TextureImporter:
       name: fabrik-Sheet_2
       rect:
         serializedVersion: 2
-        x: 3200
-        y: 0
-        width: 1600
-        height: 1600
+        x: 3843
+        y: 804
+        width: 157
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +195,10 @@ TextureImporter:
       name: fabrik-Sheet_3
       rect:
         serializedVersion: 2
-        x: 4800
-        y: 0
-        width: 1600
-        height: 1600
+        x: 5430
+        y: 632
+        width: 179
+        height: 172
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,10 +224,10 @@ TextureImporter:
       name: fabrik-Sheet_4
       rect:
         serializedVersion: 2
-        x: 6400
-        y: 0
-        width: 1600
-        height: 1600
+        x: 7195
+        y: 632
+        width: 172
+        height: 172
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +253,10 @@ TextureImporter:
       name: fabrik-Sheet_5
       rect:
         serializedVersion: 2
-        x: 8000
-        y: 0
-        width: 1600
-        height: 1600
+        x: 8797
+        y: 796
+        width: 172
+        height: 172
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: fabrik-Sheet_6
       rect:
         serializedVersion: 2
-        x: 9600
-        y: 0
-        width: 1600
-        height: 1600
+        x: 10391
+        y: 796
+        width: 179
+        height: 172
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,10 +310,10 @@ TextureImporter:
       name: fabrik-Sheet_7
       rect:
         serializedVersion: 2
-        x: 11200
-        y: 0
-        width: 1600
-        height: 1600
+        x: 11836
+        y: 632
+        width: 172
+        height: 172
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,10 +339,10 @@ TextureImporter:
       name: fabrik-Sheet_8
       rect:
         serializedVersion: 2
-        x: 12800
-        y: 0
-        width: 1600
-        height: 1600
+        x: 13594
+        y: 632
+        width: 172
+        height: 172
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +368,10 @@ TextureImporter:
       name: fabrik-Sheet_9
       rect:
         serializedVersion: 2
-        x: 14400
-        y: 0
-        width: 1600
-        height: 1600
+        x: 15195
+        y: 632
+        width: 172
+        height: 172
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
