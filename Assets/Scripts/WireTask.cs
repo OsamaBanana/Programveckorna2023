@@ -54,16 +54,28 @@ public class WireTask : MonoBehaviour
         StartCoroutine(CheckTaskCompletion());
     }
 
+    bool checkTask = true;
+
+    private void Update()
+    {
+        if (checkTask)
+        {
+            StartCoroutine(CheckTaskCompletion());
+        }
+       
+    }
+
     private IEnumerator CheckTaskCompletion()
     {
-        while (!IsTaskCompleted)
-        {
+        checkTask = false;
             int successfulWires = 0;
 
             // Count the number of successful wires on the right side of the task
             for (int i = 0; i < _rightWires.Count; i++)
             {
+                
                 if (_rightWires[i].IsSuccess) { successfulWires++; }
+                print("wires success:" + successfulWires);
             }
             // If all wires on the right side are successful, the task is completed
             if (successfulWires >= _rightWires.Count)
@@ -75,8 +87,7 @@ public class WireTask : MonoBehaviour
             {
                 Debug.Log("TASK INCOMPLETED");
             }
-
-            yield return new WaitForSeconds(0.5f);
-        }
+        checkTask = true;
+        yield return null;
     }
 }
