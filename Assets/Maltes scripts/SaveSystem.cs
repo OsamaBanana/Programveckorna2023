@@ -2,6 +2,8 @@ using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
+//Kod som inte fungerar. Den var tänkt för att kunna spara spelet och minnas var spelaren var någonstans när den sparade spelet - Malte
+
 public static class Savesystem
 {
     public static void SavePlayer (man player)

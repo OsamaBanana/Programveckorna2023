@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class StartMenuScript : MonoBehaviour
 {
+    //Kod för knappar, en som startar spelet (laddar utomhusscenen), en som öppnar inställningar och en som stänger av spelet. - Malte
     public void StartGame()
     {
         SceneManager.LoadScene("Outdoors");
