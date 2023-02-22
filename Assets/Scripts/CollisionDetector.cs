@@ -5,6 +5,7 @@ using UnityEngine;
 public class CollisionDetector : MonoBehaviour
 {
     public GameObject panel;
+    WireTask task;
     public float displayTime = 5f; // time in seconds for the panel to be displayed
     public static CollisionDetector instance;
     public GameObject player;
@@ -18,6 +19,7 @@ public class CollisionDetector : MonoBehaviour
     }
     void Start()
     {
+        task = panel.GetComponentInChildren<WireTask>();
         player = FindObjectOfType<man>().gameObject;
         panel.SetActive(false);//Makes the panel inactive
         canActivate = true;
@@ -37,6 +39,10 @@ public class CollisionDetector : MonoBehaviour
 
     private void Update()
     {
+        if (task.IsTaskCompleted)
+        {
+            gameObject.SetActive(false);
+        }
         if (!canActivate)
         {
             timer += Time.deltaTime;
